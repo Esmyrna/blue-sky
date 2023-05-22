@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export interface StyleProps {
-    width: string
-    height: string
+    width: string,
+    height: string,
+    background: string
 }
 export const Building = styled.div`
     background-color: grey;
@@ -18,7 +19,7 @@ export const Building = styled.div`
 `;
 
 export const Window = styled.div<StyleProps>`
-    background-color: #000;
+    background: ${({background}) => background};
     border: 2px solid #fff;
     width: ${({width}) => width};
     height: ${({height}) => height};
@@ -70,3 +71,5 @@ export const OtherContainer = styled.div`
     justify-content:center;
 
 `
+
+export const Btn = styled.button``;
