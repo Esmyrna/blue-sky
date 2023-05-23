@@ -1,6 +1,7 @@
 import { Container, Img, Li, Summer, Ul } from "./style"
 import Sol from '../../assets/sol.png'
 import Nuvem from '../../assets/nuvem.webp'
+import Time from "../Time"
 
 const Imgs = () => {
   return (
@@ -14,6 +15,7 @@ const Imgs = () => {
             <Li> <Img src={Nuvem} width={'250px'} height={'110px'} /></Li>
             <Li> <Img src={Nuvem} width={'250px'} height={'110px'} /></Li>       
         </Ul>
+        <Time />
      </Container>
   )
 }

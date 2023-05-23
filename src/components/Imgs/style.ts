@@ -7,8 +7,7 @@ export const Img = styled.img `
 `;
 
 export const Summer = styled.div`
-    width: 350px;
-     
+  width: 50%;
     
 
 `;

@@ -1,9 +1,24 @@
+import  { useState, useEffect } from 'react';
+import { Container } from './style';
  
+function Time(): JSX.Element {
+  const [currentDate, setCurrentDate] = useState<Date>(new Date());
 
-const Time = () => {
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentDate(new Date());
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  
   return (
-    <div>Time</div>
-  )
+    <Container>
+      <p>{currentDate.toLocaleDateString()}</p>
+      <p>{currentDate.toLocaleTimeString()}</p>
+    </Container>
+  );
 }
 
-export default Time
+export default Time;

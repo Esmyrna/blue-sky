@@ -7,8 +7,8 @@ export interface StyleProps {
 }
 export const Building = styled.div`
     background-color: grey;
-    width: 300px;
-    height:600px;
+    width: 20%;
+    height:80%;
     margin-top: 38%;
     padding: 120px;
     display: flex;
@@ -29,12 +29,12 @@ export const Window = styled.div<StyleProps>`
 `;
 
 export const Container = styled.div`
-    width: 300px;
+    width: 15rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100px;
+ 
     margin: 2rem;
    
     

@@ -1,16 +1,12 @@
- 
-import Buildings from './components/Buildings'
-import Imgs from './components/Imgs'
+import GlobalStyle from "./global/GlobalStyle"
+import { Outlet } from "react-router-dom";
  
 
 function App() {
   return (
     <>
-        <Imgs />
-       
-       <Buildings/>
-
-   
+    <GlobalStyle />
+    <Outlet />
     </>
   )
 }
