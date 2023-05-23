@@ -33,3 +33,9 @@ export const Ul = styled.ul`
 export const Li = styled.li`
     margin: 0 4rem;
 `;
+
+export const Tree = styled.div`
+    position: absolute;
+    top: 34%;
+   
+`;
