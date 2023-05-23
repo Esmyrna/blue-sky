@@ -8,7 +8,14 @@ export const Img = styled.img `
 
 export const Summer = styled.div`
   width: 50%;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin-top: 1%;
+ 
+
 
 `;
 export const Container = styled.div`
@@ -34,8 +41,3 @@ export const Li = styled.li`
     margin: 0 4rem;
 `;
 
-export const Tree = styled.div`
-    position: absolute;
-    top: 34%;
-   
-`;

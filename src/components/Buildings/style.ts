@@ -73,3 +73,10 @@ export const OtherContainer = styled.div`
 `
 
 export const Btn = styled.button``;
+
+export const Tree = styled.div`
+    position: absolute;
+    right: 40%;
+    bottom: 1%;
+   
+`;

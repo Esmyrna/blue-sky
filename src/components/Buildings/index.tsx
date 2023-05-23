@@ -3,6 +3,7 @@ import GlobalStyle from "../../global/GlobalStyle"
  
 import * as C from "./style"
 
+
 const Buildings = () => {
     const [color, setColor] = useState(false)
 
@@ -85,9 +86,10 @@ const Buildings = () => {
                         <C.Window width={'50px'} height={'50px'} background={color ? '#FFFF00' : "#000" }>
                             
                         </C.Window>
+                        
                     </C.Container>
-
-
+                    
+                    
                 </C.Building>
 
                 <C.OtherBuildings>
@@ -155,9 +157,11 @@ const Buildings = () => {
                             
                         </C.OtherContainer>
                     </C.OtherContainer>
+                 
                 </C.OtherBuildings>
                   <C.Btn onClick={handleWindowColor}  >Ligar Luzes</C.Btn>
                   <C.Btn>Ligar Luzes</C.Btn>
+                  
             </C.AllContainer>
 
         </>

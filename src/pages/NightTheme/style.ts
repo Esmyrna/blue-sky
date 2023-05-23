@@ -11,3 +11,13 @@ export const AllPage = styled.div`
     color: #fff;
      
 `;
+export const Container = styled.div``;
+
+export const Night = styled.div`
+   
+`;
+export const Moon = styled.img`
+    width: 180px;
+    height:150px;
+    margin: 1rem;
+`;
